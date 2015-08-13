@@ -1,0 +1,18 @@
+{
+  "name": "jsdeps",
+  "version": "0.0.1",
+  "description": "Manages JavaScript dependencies and aggregation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "leilers@vistaprint.com",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "n-readlines": "^0.2.2",
+    "nomnom": "^1.8.1"
+  }
+}
