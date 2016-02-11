@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 
 var cli = require("../lib/cli");
-
 process.exit(cli.main(process.stdout, process.stderr, process.argv, process.cwd()));
