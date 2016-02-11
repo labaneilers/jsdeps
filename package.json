@@ -1,21 +1,19 @@
 {
   "name": "jsdeps",
-  "version": "0.0.2",
+  "version": "1.0.2",
   "description": "Manages JavaScript dependencies and aggregation",
   "main": "lib/jsdeps.js",
-  "scripts": {
-    "test": "test.js"
+  "keywords": ["javascript", "dependencies", "reference", "vistaprint", "cimpress", "jsdeps", "dependency tree"],
+  "author": "Laban Eilers <leilers@vistaprint.com>",
+  "contributors": [{
+    "name": "Harsh Singh",
+    "email": "hsingh23@illinois.edu"
+  }],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/labaneilers/jsdeps/issues"
   },
-  "keywords": [
-    "javascript"
-  ],
-  "author": "leilers@vistaprint.com",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/harsingh/grunt-jsdeps/blob/master/LICENSE-MIT"
-    }
-  ],
+  "homepage": "https://github.com/labaneilers/jsdeps#readme",
   "dependencies": {
     "commander": "^2.9.0"
   }
